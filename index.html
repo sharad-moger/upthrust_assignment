@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Workflow Automation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 Mini Workflow Automation</h1>
+
+    <input type="text" id="promptInput" placeholder="Enter your prompt" />
+
+    <select id="actionSelect">
+      <option value="weather">Weather</option>
+      <option value="news">News</option>
+      <option value="github">GitHub</option>
+    </select>
+
+    <button id="runWorkflowBtn">Run Workflow</button>
+
+    <h2>Result:</h2>
+    <pre id="output">Your workflow result will appear here...</pre>
+
+    <h2>History</h2>
+    <ul id="historyList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
